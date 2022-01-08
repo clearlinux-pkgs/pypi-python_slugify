@@ -4,7 +4,7 @@
 #
 Name     : pypi-python_slugify
 Version  : 5.0.2
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/bc/a4/57893fbaf7cbf303a4f2307564cf83855a5f2cc34544656e7263125a0d1e/python-slugify-5.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bc/a4/57893fbaf7cbf303a4f2307564cf83855a5f2cc34544656e7263125a0d1e/python-slugify-5.0.2.tar.gz
 Summary  : A Python Slugify application that handles Unicode
@@ -14,11 +14,8 @@ Requires: pypi-python_slugify-bin = %{version}-%{release}
 Requires: pypi-python_slugify-license = %{version}-%{release}
 Requires: pypi-python_slugify-python = %{version}-%{release}
 Requires: pypi-python_slugify-python3 = %{version}-%{release}
-Requires: Unidecode
+Requires: pypi(unidecode)
 BuildRequires : buildreq-distutils3
-Provides: python-slugify
-Provides: python-slugify-python
-Provides: python-slugify-python3
 BuildRequires : pypi(text_unidecode)
 
 %description
@@ -74,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641484909
+export SOURCE_DATE_EPOCH=1641603507
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
