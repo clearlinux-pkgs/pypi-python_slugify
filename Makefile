@@ -1,5 +1,5 @@
 PKG_NAME := pypi-python_slugify
-URL = https://files.pythonhosted.org/packages/b9/1b/f2d89e911b8234e6902b2065b1db5a375ee0867e4c65997a6c9fc584d77f/python-slugify-6.0.1.tar.gz
+URL = https://files.pythonhosted.org/packages/04/49/0d92393e3bb5020b4872b2eae64f6b7db850ed95c4fcb534322f847a0e46/python-slugify-6.1.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
