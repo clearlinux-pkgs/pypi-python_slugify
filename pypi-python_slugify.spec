@@ -4,7 +4,7 @@
 #
 Name     : pypi-python_slugify
 Version  : 6.1.2
-Release  : 42
+Release  : 43
 URL      : https://files.pythonhosted.org/packages/5d/45/915967d7bcc28fd12f36f554e1a64aeca36214f2be9caf87158168b5a575/python-slugify-6.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5d/45/915967d7bcc28fd12f36f554e1a64aeca36214f2be9caf87158168b5a575/python-slugify-6.1.2.tar.gz
 Summary  : A Python slugify application that also handles Unicode
