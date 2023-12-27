@@ -4,7 +4,7 @@
 #
 Name     : pypi-python_slugify
 Version  : 8.0.1
-Release  : 52
+Release  : 53
 URL      : https://files.pythonhosted.org/packages/de/63/0f60208d0d3dde1a87d30a82906fa9b00e902b57f1ae9565d780de4b41d1/python-slugify-8.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/de/63/0f60208d0d3dde1a87d30a82906fa9b00e902b57f1ae9565d780de4b41d1/python-slugify-8.0.1.tar.gz
 Summary  : A Python slugify application that also handles Unicode
