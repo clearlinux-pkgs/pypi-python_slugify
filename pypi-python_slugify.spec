@@ -6,10 +6,10 @@
 # autospec commit: fae1327
 #
 Name     : pypi-python_slugify
-Version  : 8.0.2
-Release  : 54
-URL      : https://files.pythonhosted.org/packages/80/fd/8f1950415ee2124ec0c5a98cc8ba1788247169e947697b5ea3ca751ae66c/python-slugify-8.0.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/80/fd/8f1950415ee2124ec0c5a98cc8ba1788247169e947697b5ea3ca751ae66c/python-slugify-8.0.2.tar.gz
+Version  : 8.0.3
+Release  : 55
+URL      : https://files.pythonhosted.org/packages/c5/57/38d96fdbcc2f9b965c0a2cbb62b46908211b23dabda57502f3d8b372e4ca/python-slugify-8.0.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c5/57/38d96fdbcc2f9b965c0a2cbb62b46908211b23dabda57502f3d8b372e4ca/python-slugify-8.0.3.tar.gz
 Summary  : A Python slugify application that also handles Unicode
 Group    : Development/Tools
 License  : MIT
@@ -69,10 +69,10 @@ python3 components for the pypi-python_slugify package.
 
 
 %prep
-%setup -q -n python-slugify-8.0.2
-cd %{_builddir}/python-slugify-8.0.2
+%setup -q -n python-slugify-8.0.3
+cd %{_builddir}/python-slugify-8.0.3
 pushd ..
-cp -a python-slugify-8.0.2 buildavx2
+cp -a python-slugify-8.0.3 buildavx2
 popd
 
 %build
@@ -80,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1706210772
+export SOURCE_DATE_EPOCH=1706802209
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
